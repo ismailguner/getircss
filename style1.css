@@ -1,0 +1,83 @@
+/* RESET BAŞLAYIŞ */
+*::after,
+*::before{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+border: 0;
+font-family: 'Poppins', sans-serif;
+}
+a,
+a:link,
+a:visited{
+    text-decoration: none; /* alt cizili istemiyorum */
+    outline: none; /* üste basılınca gelen kenarlarda gelen cizgi istemiyprum */
+    border: none;
+}
+
+ul,
+li{
+    list-style: none; /* liste başlarındaki nokta vs istemiyprum*/
+    margin: 0;
+    padding: 0;
+    }
+
+    section,
+    span,
+    p{
+        margin: 0;
+        padding: 0;
+        outline: none;
+         border: none;
+}
+/*-------------------RESET KODLARI BİTİŞ*/
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: aqua;
+    
+    }
+    .logo a{
+        display: flex;
+        font-size: 3em;
+        color: yellow;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .menu ul{
+        max-width: 1170px;
+        font-size: 2.5em;
+        display: flex;
+        
+        
+       
+       
+    }
+    .menu ul li{
+        justify-content: space-between;
+        margin-left: 20px;
+        padding-left: 50px;
+        align-items: center;
+    }
+    .iletisim ul{
+        font-size: 2.5em;
+        display: flex;
+        margin-left: 20px;
+        padding-left: 50px;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+    .container{
+        display: flex; /*önce yan yana yapıp sonra ortala aşağıya diycez*/
+align-items: center; /*yatayda hizala*/
+justify-content: center; /*dikeyde hizala*/
+flex-direction: column; /*flexin yönünü colon olarak yapınca dikeyde hizaladık...*/
+    }
+  
+  .menu_getir_buyuk ol{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
